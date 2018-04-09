@@ -1,15 +1,16 @@
 # This example is fetched from the IBM Cloud docs on IBM Watson Assistant
 # For more information: https://console.bluemix.net/docs/services/conversation/develop-app.html#building-a-client-application
 
-import watson_developer_cloud # The library used to connect to IBM Watson assistant. Install it using PIP.
+import watson_developer_cloud  # The library used to connect to IBM Watson assistant. Install it using PIP.
+import time
 
 # Set up Conversation service.
 conversation = watson_developer_cloud.ConversationV1(
-  username = 'USERNAME', # Replace with username from service key
-  password = 'PASSWORD', # Replace with password from service key
+  username = 'USERNAME',  # Replace with username from service key
+  password = 'PASSWORD',  # Replace with password from service key
   version = '2017-05-26'
 )
-workspace_id = 'WORKSPACE' # Replace with workspace ID
+workspace_id = 'WORKSPACE'  # Replace with workspace ID
 
 # Initialize with empty value to start the conversation.
 user_input = ''

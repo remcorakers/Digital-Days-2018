@@ -38,10 +38,11 @@ class Alice:
         self.run()
 
     def run(self):
-        self.zora.talk("Hey")
+        self.zora.talk("Hey, I can talk.")
+        self.onboarding()
 
     def onboarding(self):
-        self.zora.talk("Ik stel nu een vraag. Je kunt op deze vragen Ja of Nee antwoorden.")
+        self.zora.talk("Now I will ask a question. You can react to this question by responding with yes or no.")
         for i, item in enumerate(self.creds["onboarding"]):
             self.recognizedWord = ""
             self.zora.recognize()

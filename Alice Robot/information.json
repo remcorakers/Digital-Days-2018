@@ -1,0 +1,12 @@
+{
+	"alice1": {
+		"username": "tBYRRJ6zq2nGBiE73tnb@alicerobot.nl",
+		"password": "2pPQLhLB33IQGQUQOLfQ6o2EGr0GV2UcFb9gFYae"
+	},
+	"alice2": {
+		"username": "Qvvxi0C2ahWhI0CSe2wv@alicerobot.nl",
+		"password": "Da0CpSmQDSM4opvU6lZn0nMqFBjeYfAUFVf2Uy6i"
+	},
+	"sentences": ["Hi, I'm Alice. Do you want to talk?"],
+	"onboarding": ["Hi, I'm Alice. Do you want to talk?"]
+}
