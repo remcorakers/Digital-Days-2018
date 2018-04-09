@@ -19,12 +19,13 @@ Google_Vision_API.py | Code to make an API request to the Vision API. The API ca
 IBM_Watson_Assistant.py | Code to implement a IBM Watson Assistant workspace in Python.
 Dialogflow.py | Code to implement a DialogFlow agent in Python.
 
+Alice Robot/Alice.py | If you are using one of the robots, this folder is available with some example code. See Alice.py for more explanation.
 
 # Starting the ZORA Robots
 
 Two ZORA robots will be available at the hackathon for teams to use. In order to use the robots, we first need to start to the robot. To start the robot, press the big button in the center until it lights up. After that we can connect to the robots network. This can be done with an Ethernet cable or through Wi-Fi. Using an Ethernet cable is recommended since you can connect to Wi-Fi/4G simultaneously. 
 
-The ZORA robot needs some time to boot (approximately 10 minutes) before it can be used. You will know that the robot is ready for use when it starts saying "Hi, my name is Alice. My internet adress is X.X.X.X". If everything is connected you can now go to this adress and you wil see a portal.
+The ZORA robot needs some time to boot (approximately 10 minutes) before it can be used. You will know that the robot is ready for use when it starts saying "Hi, my name is Alice. My internet adress is X.X.X.X". Depending on the volume settings, it could be quite silent. If everything is connected you can now go to this adress and you wil see a portal.
 
 In this portal you can start some pre-installed programs and try-out some of the robots functionalities like changing posture, text-to-speech and speech recognition.
 

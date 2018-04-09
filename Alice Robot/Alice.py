@@ -5,6 +5,7 @@ Use example code if you want to use the Zora robot
 1 - You will need to install Python 2.7 - 32 bits (be sure that it is the 32 bits version)
     You can find the installer here: https://www.python.org/downloads/release/python-2714/
 2 - After installing Python, install the naoqi executable also in Library: pynaoqi-python-2.7-naoqi-x.x-win32.exe
+3 - Everything should work if you run Alice.py.
 
 '''
 
