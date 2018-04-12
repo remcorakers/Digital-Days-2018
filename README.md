@@ -21,8 +21,9 @@ Google_Speech_To_Text.py  | Code to make an API request to the Speech Recognitio
 Google_Vision_API.py | Code to make an API request to the Vision API. The API can be used to classify images.
 Google_Streaming_SST.py | Code to stream audio to google for speech recognition. Currently only English works.
 IBM_Watson_Assistant.py | Code to implement a IBM Watson Assistant workspace in Python.
-
 Alice Robot/Alice.py | If you are using one of the robots, this folder is available with some example code. See Alice.py for more explanation.
+
+The folder Chatbot_Example contains a very simple chatbot example made in Dialogflow. The example is used to help engineers understand how a chatbot retreives context from a chat and how entities can be retreived.
 
 # Starting the ZORA Robots
 
