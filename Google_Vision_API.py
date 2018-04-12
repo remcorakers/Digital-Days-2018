@@ -1,7 +1,19 @@
+"""
+Google Vision allows us to analyse picture contents using machine learning.
+In this example, you can see the response to a picture of Laurens' face from 'images/laurens.jpg'.
+The response is a classification of the picture, stating that Laurens is a girl. (Might need some improvement)
+
+If you're using the Zora robot, you can capture shots using the function takePicture()
+http://doc.aldebaran.com/2-1/naoqi/vision/alphotocapture.html
+
+Otherwise you can use a different way to capture pictures.
+"""
+
 import io
 import os
 from google.cloud import vision
 from google.cloud.vision import types
+
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "creds.json"
 
