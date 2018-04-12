@@ -13,6 +13,7 @@ from Zora import Zora
 
 
 class Alice:
+
     def __init__(self):
         self.answers = []
 
@@ -32,7 +33,9 @@ class Alice:
         self.stand()
 
     def conversation(self):
+        # The Zora robot has built-in text to speech (TTS):
         self.zora.talk("I will ask a question. You can answer me by responding with yes or no. Are you ready?")
+        # The Zora robot also has a (limited by one word) built in speech to text (STT):
         self.recognizedWord = ""
         self.zora.recognize()
         self.answers = self.recognizedWord

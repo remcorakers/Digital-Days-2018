@@ -2,10 +2,11 @@ import time
 from naoqi import ALProxy
 import qi
 
+
 class Zora:
+
     def __init__(self, alice):
         self.alice = alice
-
 
         self.SENSITIVTY = 0.85      # The sensitivity of the microphone sensor.
         self.IP = alice.ZORA_IP
