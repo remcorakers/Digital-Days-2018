@@ -31,7 +31,7 @@ def synthesize_text(text):
     file_path = 'output.mp3'
     with io.open(file_path, 'wb+') as out:
         out.write(response.audio_content)
-        print('Audio content written to file "output.mp3"')
+        print('Audio content written to file: ' + str(file_path))
     playsound.playsound(file_path, True)
     os.remove(file_path)
 
@@ -61,11 +61,11 @@ def synthesize_ssml(ssml):
     response = client.synthesize_speech(input_text, voice, audio_config)
 
     # The response's audio_content is binary.
-    file_path = 'output.mp3'
+    file_path = 'output2.mp3'
     with io.open(file_path, 'wb+') as out:
         out.write(response.audio_content)
-        print('Audio content written to file "output.mp3"')
-    playsound.playsound(response, True)
+        print('Audio content written to file: ' + str(file_path))
+    playsound.playsound(file_path, True)
     os.remove(file_path)
 
 text="Hoi, ik ben Alice"
@@ -73,3 +73,5 @@ ssml_text="<speak>Hoi Bob<break time='200ms' />" \
           "Met mij gaat het erg goed.</speak>"
 
 synthesize_text(text)
+
+synthesize_ssml(ssml_text)
