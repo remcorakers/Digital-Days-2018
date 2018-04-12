@@ -7,7 +7,7 @@ class Zora:
         self.alice = alice
 
 
-        self.SENSITIVTY = 0.85
+        self.SENSITIVTY = 0.85      # The sensitivity of the microphone sensor.
         self.IP = alice.ZORA_IP
         self.session = qi.Session()
         self.session.connect(alice.ZORA_IP + ":9559")
@@ -24,8 +24,6 @@ class Zora:
         self.postureProxy = ALProxy("ALRobotPosture", self.IP, 9559)
         self.sound_detect_service = self.session.service("ALSoundDetection")
         self.sound_detect_service.setParameter("Sensitivity", self.SENSITIVTY)
-
-
 
     def detectSound(self):
         print("DETECTING")
