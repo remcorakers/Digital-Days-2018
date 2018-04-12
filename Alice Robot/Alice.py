@@ -11,7 +11,6 @@ import time
 import json
 from Zora import Zora
 
-
 class Alice:
 
     def __init__(self):
@@ -24,7 +23,6 @@ class Alice:
         print("Starting Program for Alice")
         # Connect to Zora
         self.zora = Zora(self)
-
         self.run()
 
     def run(self):
@@ -49,7 +47,12 @@ class Alice:
 
     def stand(self):
         # Find more at: http://doc.aldebaran.com/2-1/naoqi/motion/alrobotposture.html
-        self.zora.goToPosture("Stand", 1.0)
+        self.zora.goToPosture("Crouch")
+        # self.posture_service.goToPosture("Stand")
+
+    def onReceivedWord(self, word):
+        if(word[1] > 0.3):
+            self.recognizedWord = word[0]
 
 
 Alice()
