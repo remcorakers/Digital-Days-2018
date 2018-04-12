@@ -1,11 +1,14 @@
 # Digital Days 2018 Hackathon
 
-Welcome to the documentation for the Digital Days 2018 Hackathon. As you all heard the goal for this hackathon is to develop a new use-case for the Alice project. This Github repository will provide you with documentation and code examples to get you started.
+Welcome to the documentation for the Digital Days 2018 Hackathon. As you all heard the goal for this hackathon is to prototype a new use-case for the Alice project. This Github repository will provide documentation and code examples to help you get started.
 
+# Introduction
+
+During the Alice hackathon your team will come up with solution to the problem statement. During the hackathon all teams will try to build a first prototype of the solution. To help you get started with this, this repository contains documentation on how to get started with Artificial Intelligence.
 
 # Services to use
 
-TBA
+Every team is free to use any kind of service, online platform and AI-technique in every (commonly used) programming language. However, the examples in this repository are in Python. We used the Google Cloud platform to do Text-To-Speech, Speech-To-Text and Image Recognition. At the start of the hackathon credentials to the Google Cloud platform will be provided. If you want to use other services during the Hackathon you can contact Joost Naaijen, Egemen Uzunali or Youri van der Zee. For other platforms you will have to create an account yourself.
 
 # Code Examples
 
@@ -15,16 +18,16 @@ File  | Explanation
 ------------- | -------------
 Google_Text_To_Speech.py  | Code to make an API request to the Text-To-Speech service.
 Google_Speech_To_Text.py  | Code to make an API request to the Speech Recognition service. The example records for X seconds and sends that to the cloud.
-Google_Vision_API.py | Code to make an API request to the Vision API. The API can be used to recognied images.
+Google_Vision_API.py | Code to make an API request to the Vision API. The API can be used to classify images.
 IBM_Watson_Assistant.py | Code to implement a IBM Watson Assistant workspace in Python.
-Dialogflow.py | Code to implement a DialogFlow agent in Python.
 
+Alice Robot/Alice.py | If you are using one of the robots, this folder is available with some example code. See Alice.py for more explanation.
 
 # Starting the ZORA Robots
 
 Two ZORA robots will be available at the hackathon for teams to use. In order to use the robots, we first need to start to the robot. To start the robot, press the big button in the center until it lights up. After that we can connect to the robots network. This can be done with an Ethernet cable or through Wi-Fi. Using an Ethernet cable is recommended since you can connect to Wi-Fi/4G simultaneously. 
 
-The ZORA robot needs some time to boot (approximately 10 minutes) before it can be used. You will know that the robot is ready for use when it starts saying "Hi, my name is Alice. My internet adress is X.X.X.X". If everything is connected you can now go to this adress and you wil see a portal.
+The ZORA robot needs some time to boot (approximately 10 minutes) before it can be used. You will know that the robot is ready for use when it starts saying "Hi, my name is Alice. My internet adress is X.X.X.X". Depending on the volume settings, it could be quite silent. If everything is connected you can now go to this adress and you wil see a portal.
 
 In this portal you can start some pre-installed programs and try-out some of the robots functionalities like changing posture, text-to-speech and speech recognition.
 
