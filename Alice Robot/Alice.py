@@ -35,7 +35,8 @@ class Alice:
         self.zora.talk("I will ask a question. You can answer me by responding with yes or no. Are you ready?")
         # The Zora robot also has a (limited by one word) built in speech to text (STT):
         self.recognizedWord = ""
-        self.zora.recognize()
+        vocabulary = ["yes", "no"] # The range of words that Zora should be able to recognize. For this example this is only yes or no.
+        self.zora.recognize(vocabulary)
         self.answers = self.recognizedWord
         print(self.recognizedWord)
         if self.answers == "yes":
