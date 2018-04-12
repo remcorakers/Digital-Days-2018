@@ -12,13 +12,14 @@ Every team is free to use any kind of service, online platform and AI-technique 
 
 # Code Examples
 
-To help you get started with developing artificial intelligence, some code examples are provided. The following examples are provided:
+To help you get started with developing artificial intelligence, some code examples are provided. Most of the Google examples are inspired by this repository: https://github.com/GoogleCloudPlatform/python-docs-samples. The following examples are provided:
 
 File  | Explanation
 ------------- | -------------
 Google_Text_To_Speech.py  | Code to make an API request to the Text-To-Speech service.
 Google_Speech_To_Text.py  | Code to make an API request to the Speech Recognition service. The example records for X seconds and sends that to the cloud.
 Google_Vision_API.py | Code to make an API request to the Vision API. The API can be used to classify images.
+Google_Streaming_SST.py | Code to stream audio to google for speech recognition. Currently only English works.
 IBM_Watson_Assistant.py | Code to implement a IBM Watson Assistant workspace in Python.
 
 Alice Robot/Alice.py | If you are using one of the robots, this folder is available with some example code. See Alice.py for more explanation.
