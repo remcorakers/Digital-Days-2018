@@ -43,4 +43,4 @@ Since nobody likes to create user accounts, the folder "Library" contains an ins
 
 # Questions?
 
-You can reach out to Laurens Schumacher, Bob van den Berg and Youri van der Zee for technical questions regarding the Zora Robots, Google Cloud platform, IBM Watson or Dialogflow.
+You can reach out to Laurens Schumacher, Bob van den Berg, Youri van der Zee and Joost Naaijen for technical questions regarding the Zora Robots, Google Cloud platform, IBM Watson or Dialogflow.
