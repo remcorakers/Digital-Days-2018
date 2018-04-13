@@ -41,6 +41,8 @@ Since nobody likes to create user accounts, the folder "Library" contains an ins
 
 **Note about Python versions: Make sure you use Python 2.7 - 32 bits. During development we had trouble with different versions.**
 
+# Api keys
+To get the api key for Google Cloud ask the slack bot @digital_days_bot in the Deloitte Digital slack team [ddnl.slack.com](ddnl.slack.com)
 # Questions?
 
-You can reach out to Laurens Schumacher, Bob van den Berg and Youri van der Zee for technical questions regarding the Zora Robots, Google Cloud platform, IBM Watson or Dialogflow.
+You can reach out to Laurens Schumacher, Bob van den Berg, Youri van der Zee and Joost Naaijen for technical questions regarding the Zora Robots, Google Cloud platform, IBM Watson or Dialogflow.
